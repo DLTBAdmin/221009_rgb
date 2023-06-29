@@ -1,0 +1,1874 @@
+2022-09-24 00:00:13,521 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 00:00:13,522 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:60085, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,60085,58782733909600
+
+2022-09-24 00:00:13,522 INFO send udp packet: 172.20.139.17,60085,58782733909600
+
+2022-09-24 00:00:13,522 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663948813522,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=58782733909600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 00:00:13,529 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,58782733909600
+
+2022-09-24 00:00:13,529 INFO send udp packet: 192.168.170.1,65504,58782733909600
+
+2022-09-24 00:00:13,529 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663948813529,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=58782733909600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:31:05,039 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:31:05,039 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:60085, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,60085,64234251080500
+
+2022-09-24 01:31:05,039 INFO send udp packet: 172.20.139.17,60085,64234251080500
+
+2022-09-24 01:31:05,040 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954265039,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=64234251080500} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:31:05,040 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64234251080500
+
+2022-09-24 01:31:05,040 INFO send udp packet: 192.168.170.1,65504,64234251080500
+
+2022-09-24 01:31:05,040 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954265040,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64234251080500} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:31:23,975 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:31:23,975 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:53229, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,53229,64253187778900
+
+2022-09-24 01:31:23,975 INFO send udp packet: 172.20.139.17,53229,64253187778900
+
+2022-09-24 01:31:23,975 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954283975,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=64253187778900} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:31:23,975 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64253187778900
+
+2022-09-24 01:31:23,975 INFO send udp packet: 192.168.170.1,65504,64253187778900
+
+2022-09-24 01:31:23,975 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954283975,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64253187778900} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:33:09,128 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:33:09,128 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64358340257800
+
+2022-09-24 01:33:09,128 INFO send udp packet: 192.168.170.1,65504,64358340257800
+
+2022-09-24 01:33:09,128 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954389128,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64358340257800} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:33:15,898 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:33:15,898 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:53229, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,53229,64365111019300
+
+2022-09-24 01:33:15,898 INFO send udp packet: 172.20.139.17,53229,64365111019300
+
+2022-09-24 01:33:15,899 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954395898,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=64365111019300} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:33:15,899 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64365111019300
+
+2022-09-24 01:33:15,899 INFO send udp packet: 192.168.170.1,65504,64365111019300
+
+2022-09-24 01:33:15,899 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954395899,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64365111019300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:33:34,131 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:33:34,131 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64383343365300
+
+2022-09-24 01:33:34,131 INFO send udp packet: 192.168.170.1,65504,64383343365300
+
+2022-09-24 01:33:34,131 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954414131,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64383343365300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:33:49,235 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:33:49,235 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64398447373100
+
+2022-09-24 01:33:49,235 INFO send udp packet: 192.168.170.1,65504,64398447373100
+
+2022-09-24 01:33:49,235 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954429235,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64398447373100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:33:54,653 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:33:54,653 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:53229, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,53229,64403865781200
+
+2022-09-24 01:33:54,653 INFO send udp packet: 172.20.139.17,53229,64403865781200
+
+2022-09-24 01:33:54,653 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954434653,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=64403865781200} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:33:54,653 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64403865781200
+
+2022-09-24 01:33:54,653 INFO send udp packet: 192.168.170.1,65504,64403865781200
+
+2022-09-24 01:33:54,653 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954434653,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64403865781200} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:35:41,902 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:35:41,902 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:53229, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,53229,64511114182600
+
+2022-09-24 01:35:41,902 INFO send udp packet: 172.20.139.17,53229,64511114182600
+
+2022-09-24 01:35:41,902 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954541902,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=64511114182600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:35:41,902 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64511114182600
+
+2022-09-24 01:35:41,902 INFO send udp packet: 192.168.170.1,65504,64511114182600
+
+2022-09-24 01:35:41,902 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954541902,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64511114182600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:36:04,251 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:36:04,263 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:59692, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,59692,64533463072800
+
+2022-09-24 01:36:04,263 INFO send udp packet: 172.20.139.17,59692,64533463072800
+
+2022-09-24 01:36:04,263 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954564251,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=64533463072800} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:36:04,263 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64533463072800
+
+2022-09-24 01:36:04,263 INFO send udp packet: 192.168.170.1,65504,64533463072800
+
+2022-09-24 01:36:04,263 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954564263,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64533463072800} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:37:04,283 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:37:04,283 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64593495359400
+
+2022-09-24 01:37:04,283 INFO send udp packet: 192.168.170.1,65504,64593495359400
+
+2022-09-24 01:37:04,283 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954624283,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64593495359400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:37:19,291 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:37:19,291 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64608503169300
+
+2022-09-24 01:37:19,291 INFO send udp packet: 192.168.170.1,65504,64608503169300
+
+2022-09-24 01:37:19,291 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954639291,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64608503169300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:38:27,133 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:38:27,133 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:59692, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,59692,64676345130300
+
+2022-09-24 01:38:27,133 INFO send udp packet: 172.20.139.17,59692,64676345130300
+
+2022-09-24 01:38:27,133 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954707133,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=64676345130300} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:38:27,133 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64676345130300
+
+2022-09-24 01:38:27,133 INFO send udp packet: 192.168.170.1,65504,64676345130300
+
+2022-09-24 01:38:27,133 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954707133,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64676345130300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:38:50,174 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:38:50,174 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:61370, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,61370,64699386389600
+
+2022-09-24 01:38:50,174 INFO send udp packet: 172.20.139.17,61370,64699386389600
+
+2022-09-24 01:38:50,174 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954730174,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=64699386389600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:38:50,174 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64699386389600
+
+2022-09-24 01:38:50,174 INFO send udp packet: 192.168.170.1,65504,64699386389600
+
+2022-09-24 01:38:50,174 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954730174,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64699386389600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:39:06,441 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:39:06,441 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:61370, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,61370,64715653077300
+
+2022-09-24 01:39:06,441 INFO send udp packet: 172.20.139.17,61370,64715653077300
+
+2022-09-24 01:39:06,441 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954746441,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=64715653077300} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:39:06,441 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64715653077300
+
+2022-09-24 01:39:06,441 INFO send udp packet: 192.168.170.1,65504,64715653077300
+
+2022-09-24 01:39:06,441 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954746441,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64715653077300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:39:28,420 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:39:28,420 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64737632855100
+
+2022-09-24 01:39:28,421 INFO send udp packet: 192.168.170.1,65504,64737632855100
+
+2022-09-24 01:39:28,421 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954768420,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64737632855100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:39:48,362 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:39:48,362 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64757574675700
+
+2022-09-24 01:39:48,362 INFO send udp packet: 192.168.170.1,65504,64757574675700
+
+2022-09-24 01:39:48,363 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954788362,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64757574675700} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:39:54,295 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:39:54,295 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64763507508100
+
+2022-09-24 01:39:54,295 INFO send udp packet: 192.168.170.1,65504,64763507508100
+
+2022-09-24 01:39:54,295 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954794295,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64763507508100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:40:13,365 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:40:13,365 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64782577223300
+
+2022-09-24 01:40:13,365 INFO send udp packet: 192.168.170.1,65504,64782577223300
+
+2022-09-24 01:40:13,365 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954813365,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64782577223300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:40:28,384 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:40:28,384 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64797596216800
+
+2022-09-24 01:40:28,384 INFO send udp packet: 192.168.170.1,65504,64797596216800
+
+2022-09-24 01:40:28,385 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954828384,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64797596216800} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:40:58,814 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:40:58,814 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64828026520300
+
+2022-09-24 01:40:58,814 INFO send udp packet: 192.168.170.1,65504,64828026520300
+
+2022-09-24 01:40:58,814 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954858814,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64828026520300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:41:23,386 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:41:23,386 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64852598006100
+
+2022-09-24 01:41:23,386 INFO send udp packet: 192.168.170.1,65504,64852598006100
+
+2022-09-24 01:41:23,386 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954883386,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=64852598006100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:41:38,397 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:41:38,397 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,64867609703400
+
+2022-09-24 01:41:38,397 INFO send udp packet: 192.168.170.1,65504,64867609703400
+
+2022-09-24 01:41:38,397 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663954898397,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=64867609703400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:44:01,066 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:44:01,066 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65010278959600
+
+2022-09-24 01:44:01,066 INFO send udp packet: 192.168.170.1,65504,65010278959600
+
+2022-09-24 01:44:01,067 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955041066,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65010278959600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:44:16,067 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:44:16,068 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65025279868600
+
+2022-09-24 01:44:16,068 INFO send udp packet: 192.168.170.1,65504,65025279868600
+
+2022-09-24 01:44:16,068 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955056068,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65025279868600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:44:31,090 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:44:31,090 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65040302301100
+
+2022-09-24 01:44:31,090 INFO send udp packet: 192.168.170.1,65504,65040302301100
+
+2022-09-24 01:44:31,090 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955071090,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=65040302301100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:45:28,771 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:45:28,771 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65097983764000
+
+2022-09-24 01:45:28,771 INFO send udp packet: 192.168.170.1,65504,65097983764000
+
+2022-09-24 01:45:28,771 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955128771,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65097983764000} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:46:06,091 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:46:06,091 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65135303301300
+
+2022-09-24 01:46:06,091 INFO send udp packet: 192.168.170.1,65504,65135303301300
+
+2022-09-24 01:46:06,092 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955166091,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65135303301300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:46:21,100 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:46:21,100 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65150312047800
+
+2022-09-24 01:46:21,100 INFO send udp packet: 192.168.170.1,65504,65150312047800
+
+2022-09-24 01:46:21,100 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955181100,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=65150312047800} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:47:29,303 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:47:29,303 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65218514997500
+
+2022-09-24 01:47:29,303 INFO send udp packet: 192.168.170.1,65504,65218514997500
+
+2022-09-24 01:47:29,303 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955249303,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=65218514997500} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:47:40,550 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:47:40,550 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:58815, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,58815,65229762711600
+
+2022-09-24 01:47:40,550 INFO send udp packet: 172.20.139.17,58815,65229762711600
+
+2022-09-24 01:47:40,550 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955260550,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=65229762711600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:47:40,550 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65229762711600
+
+2022-09-24 01:47:40,550 INFO send udp packet: 192.168.170.1,65504,65229762711600
+
+2022-09-24 01:47:40,550 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955260550,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65229762711600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:55:36,909 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:55:36,909 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:58815, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,58815,65706121285200
+
+2022-09-24 01:55:36,909 INFO send udp packet: 172.20.139.17,58815,65706121285200
+
+2022-09-24 01:55:36,909 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955736909,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=65706121285200} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:55:36,909 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65706121285200
+
+2022-09-24 01:55:36,909 INFO send udp packet: 192.168.170.1,65504,65706121285200
+
+2022-09-24 01:55:36,909 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955736909,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=65706121285200} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:55:57,115 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:55:57,115 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65726327138299
+
+2022-09-24 01:55:57,115 INFO send udp packet: 192.168.170.1,65504,65726327138299
+
+2022-09-24 01:55:57,115 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955757115,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65726327138299} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:55:57,115 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:65349, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,65349,65726327138299
+
+2022-09-24 01:55:57,115 INFO send udp packet: 172.20.139.17,65349,65726327138299
+
+2022-09-24 01:55:57,115 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955757115,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=65726327138299} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:56:41,199 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:56:41,199 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65770411801500
+
+2022-09-24 01:56:41,200 INFO send udp packet: 192.168.170.1,65504,65770411801500
+
+2022-09-24 01:56:41,200 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955801199,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65770411801500} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:56:56,207 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:56:56,207 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65785418789300
+
+2022-09-24 01:56:56,207 INFO send udp packet: 192.168.170.1,65504,65785418789300
+
+2022-09-24 01:56:56,207 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955816207,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=65785418789300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:59:18,646 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:59:18,646 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65927858135699
+
+2022-09-24 01:59:18,646 INFO send udp packet: 192.168.170.1,65504,65927858135699
+
+2022-09-24 01:59:18,646 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955958646,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65927858135699} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:59:18,646 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:65349, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,65349,65927858135699
+
+2022-09-24 01:59:18,646 INFO send udp packet: 172.20.139.17,65349,65927858135699
+
+2022-09-24 01:59:18,646 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955958646,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=65927858135699} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:59:51,233 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:59:51,233 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65960445605100
+
+2022-09-24 01:59:51,233 INFO send udp packet: 192.168.170.1,65504,65960445605100
+
+2022-09-24 01:59:51,234 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955991233,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65960445605100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 01:59:52,525 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 01:59:52,525 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65961736967699
+
+2022-09-24 01:59:52,525 INFO send udp packet: 192.168.170.1,65504,65961736967699
+
+2022-09-24 01:59:52,525 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663955992525,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65961736967699} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:00:11,236 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 02:00:11,236 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65980448908299
+
+2022-09-24 02:00:11,236 INFO send udp packet: 192.168.170.1,65504,65980448908299
+
+2022-09-24 02:00:11,236 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956011236,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=65980448908299} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:00:26,242 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 02:00:26,242 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,65995454403400
+
+2022-09-24 02:00:26,242 INFO send udp packet: 192.168.170.1,65504,65995454403400
+
+2022-09-24 02:00:26,242 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956026242,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=65995454403400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:03:20,218 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 02:03:20,218 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,66169430792400
+
+2022-09-24 02:03:20,218 INFO send udp packet: 192.168.170.1,65504,66169430792400
+
+2022-09-24 02:03:20,218 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956200218,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=66169430792400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:03:20,218 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:65349, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,65349,66169430792400
+
+2022-09-24 02:03:20,218 INFO send udp packet: 172.20.139.17,65349,66169430792400
+
+2022-09-24 02:03:20,218 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956200218,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=66169430792400} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:03:55,218 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 02:03:55,218 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,66204430595500
+
+2022-09-24 02:03:55,218 INFO send udp packet: 192.168.170.1,65504,66204430595500
+
+2022-09-24 02:03:55,219 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956235218,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=66204430595500} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:04:10,223 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 02:04:10,223 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,66219434861400
+
+2022-09-24 02:04:10,223 INFO send udp packet: 192.168.170.1,65504,66219434861400
+
+2022-09-24 02:04:10,223 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956250223,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=66219434861400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:10:00,047 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 02:10:00,047 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,66569259325399
+
+2022-09-24 02:10:00,047 INFO send udp packet: 192.168.170.1,65504,66569259325399
+
+2022-09-24 02:10:00,047 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956600047,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=66569259325399} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:10:00,047 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:65349, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,65349,66569259325399
+
+2022-09-24 02:10:00,047 INFO send udp packet: 172.20.139.17,65349,66569259325399
+
+2022-09-24 02:10:00,047 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956600047,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=66569259325399} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:10:22,560 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 02:10:22,560 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:49362, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,49362,66591772528100
+
+2022-09-24 02:10:22,560 INFO send udp packet: 172.20.139.17,49362,66591772528100
+
+2022-09-24 02:10:22,560 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956622560,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=66591772528100} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 02:10:22,560 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,66591772528100
+
+2022-09-24 02:10:22,560 INFO send udp packet: 192.168.170.1,65504,66591772528100
+
+2022-09-24 02:10:22,560 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663956622560,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=66591772528100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:33:08,848 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 11:33:08,850 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:49362, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,49362,100358060759300
+
+2022-09-24 11:33:08,850 INFO send udp packet: 172.20.139.17,49362,100358060759300
+
+2022-09-24 11:33:08,851 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990388848,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=100358060759300} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:33:08,851 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,100358060759300
+
+2022-09-24 11:33:08,851 INFO send udp packet: 192.168.170.1,65504,100358060759300
+
+2022-09-24 11:33:08,851 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990388851,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=100358060759300} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:33:39,620 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 11:33:39,620 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:51149, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,51149,100388832110600
+
+2022-09-24 11:33:39,620 INFO send udp packet: 172.20.139.17,51149,100388832110600
+
+2022-09-24 11:33:39,620 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990419620,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=100388832110600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:33:39,620 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,100388832110600
+
+2022-09-24 11:33:39,620 INFO send udp packet: 192.168.170.1,65504,100388832110600
+
+2022-09-24 11:33:39,620 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990419620,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=100388832110600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:37:52,432 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 11:37:52,432 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,100641643850400
+
+2022-09-24 11:37:52,432 INFO send udp packet: 192.168.170.1,65504,100641643850400
+
+2022-09-24 11:37:52,432 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990672432,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=100641643850400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:38:07,440 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 11:38:07,440 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,100656652151700
+
+2022-09-24 11:38:07,440 INFO send udp packet: 192.168.170.1,65504,100656652151700
+
+2022-09-24 11:38:07,440 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990687440,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=100656652151700} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:38:22,215 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 11:38:22,215 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:51149, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,51149,100671427028400
+
+2022-09-24 11:38:22,215 INFO send udp packet: 172.20.139.17,51149,100671427028400
+
+2022-09-24 11:38:22,215 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990702215,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=100671427028400} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:38:22,215 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,100671427028400
+
+2022-09-24 11:38:22,215 INFO send udp packet: 192.168.170.1,65504,100671427028400
+
+2022-09-24 11:38:22,215 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990702215,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=100671427028400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:39:31,502 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 11:39:31,502 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:51149, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,51149,100740714658600
+
+2022-09-24 11:39:31,502 INFO send udp packet: 172.20.139.17,51149,100740714658600
+
+2022-09-24 11:39:31,503 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990771502,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=100740714658600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:39:51,296 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 11:39:51,296 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:56353, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,56353,100760508564600
+
+2022-09-24 11:39:51,296 INFO send udp packet: 172.20.139.17,56353,100760508564600
+
+2022-09-24 11:39:51,296 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990791296,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=100760508564600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 11:39:51,296 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,100760508564600
+
+2022-09-24 11:39:51,296 INFO send udp packet: 192.168.170.1,65504,100760508564600
+
+2022-09-24 11:39:51,296 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1663990791296,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=100760508564600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 17:57:41,653 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 17:57:41,655 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:56353, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,56353,123430866162100
+
+2022-09-24 17:57:41,655 INFO send udp packet: 172.20.139.17,56353,123430866162100
+
+2022-09-24 17:57:41,657 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013461654,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=123430866162100} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 17:57:41,658 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,123430866162100
+
+2022-09-24 17:57:41,658 INFO send udp packet: 192.168.170.1,65504,123430866162100
+
+2022-09-24 17:57:41,658 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013461657,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=123430866162100} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 17:58:04,963 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 17:58:04,963 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:60639, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,60639,123454175165400
+
+2022-09-24 17:58:04,963 INFO send udp packet: 172.20.139.17,60639,123454175165400
+
+2022-09-24 17:58:04,963 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013484963,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=123454175165400} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 17:58:04,963 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,123454175165400
+
+2022-09-24 17:58:04,963 INFO send udp packet: 192.168.170.1,65504,123454175165400
+
+2022-09-24 17:58:04,963 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013484963,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=123454175165400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 18:00:57,100 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 18:00:57,101 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,123626312722800
+
+2022-09-24 18:00:57,101 INFO send udp packet: 192.168.170.1,65504,123626312722800
+
+2022-09-24 18:00:57,101 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013657100,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=123626312722800} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 18:00:59,295 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 18:00:59,295 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:60639, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,60639,123628507654200
+
+2022-09-24 18:00:59,295 INFO send udp packet: 172.20.139.17,60639,123628507654200
+
+2022-09-24 18:00:59,295 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013659295,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=123628507654200} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 18:00:59,296 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,123628507654200
+
+2022-09-24 18:00:59,296 INFO send udp packet: 192.168.170.1,65504,123628507654200
+
+2022-09-24 18:00:59,296 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013659296,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=123628507654200} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 18:01:17,105 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 18:01:17,105 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,123646317039600
+
+2022-09-24 18:01:17,105 INFO send udp packet: 192.168.170.1,65504,123646317039600
+
+2022-09-24 18:01:17,105 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013677105,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=123646317039600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 18:01:32,113 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 18:01:32,113 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,123661325346700
+
+2022-09-24 18:01:32,113 INFO send udp packet: 192.168.170.1,65504,123661325346700
+
+2022-09-24 18:01:32,113 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013692113,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=123661325346700} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 18:04:40,819 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 18:04:40,819 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:60639, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,60639,123850031218500
+
+2022-09-24 18:04:40,819 INFO send udp packet: 172.20.139.17,60639,123850031218500
+
+2022-09-24 18:04:40,820 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013880819,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=123850031218500} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 18:04:40,820 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,123850031218500
+
+2022-09-24 18:04:40,820 INFO send udp packet: 192.168.170.1,65504,123850031218500
+
+2022-09-24 18:04:40,820 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664013880820,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=123850031218500} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:13:33,875 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:13:33,876 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:60639, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,60639,138783088087200
+
+2022-09-24 22:13:33,876 INFO send udp packet: 172.20.139.17,60639,138783088087200
+
+2022-09-24 22:13:33,876 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028813875,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=138783088087200} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:13:33,877 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,138783088087200
+
+2022-09-24 22:13:33,877 INFO send udp packet: 192.168.170.1,65504,138783088087200
+
+2022-09-24 22:13:33,877 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028813876,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=138783088087200} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:14:04,899 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:14:04,899 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:56152, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,56152,138814111773699
+
+2022-09-24 22:14:04,899 INFO send udp packet: 172.20.139.17,56152,138814111773699
+
+2022-09-24 22:14:04,899 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028844899,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=138814111773699} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:14:04,899 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,138814111773699
+
+2022-09-24 22:14:04,899 INFO send udp packet: 192.168.170.1,65504,138814111773699
+
+2022-09-24 22:14:04,899 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028844899,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=138814111773699} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:16:17,760 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:16:17,760 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:56152, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,56152,138946972398999
+
+2022-09-24 22:16:17,760 INFO send udp packet: 172.20.139.17,56152,138946972398999
+
+2022-09-24 22:16:17,761 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028977760,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=138946972398999} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:16:17,761 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,138946972398999
+
+2022-09-24 22:16:17,761 INFO send udp packet: 192.168.170.1,65504,138946972398999
+
+2022-09-24 22:16:17,761 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028977761,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=138946972398999} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:16:39,229 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:16:39,229 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:49340, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,49340,138968441346600
+
+2022-09-24 22:16:39,229 INFO send udp packet: 172.20.139.17,49340,138968441346600
+
+2022-09-24 22:16:39,229 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028999229,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=138968441346600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:16:39,229 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,138968441346600
+
+2022-09-24 22:16:39,229 INFO send udp packet: 192.168.170.1,65504,138968441346600
+
+2022-09-24 22:16:39,229 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664028999229,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=138968441346600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:20:08,937 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:20:08,938 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139178149848400
+
+2022-09-24 22:20:08,938 INFO send udp packet: 192.168.170.1,65504,139178149848400
+
+2022-09-24 22:20:08,939 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029208938,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=139178149848400} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:20:13,733 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:20:13,733 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:49340, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,49340,139182945204600
+
+2022-09-24 22:20:13,733 INFO send udp packet: 172.20.139.17,49340,139182945204600
+
+2022-09-24 22:20:13,733 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029213733,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=139182945204600} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:20:13,733 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139182945204600
+
+2022-09-24 22:20:13,733 INFO send udp packet: 192.168.170.1,65504,139182945204600
+
+2022-09-24 22:20:13,733 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029213733,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=139182945204600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:21:18,947 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:21:18,947 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139248159093200
+
+2022-09-24 22:21:18,947 INFO send udp packet: 192.168.170.1,65504,139248159093200
+
+2022-09-24 22:21:18,947 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029278947,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=139248159093200} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:21:20,140 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:21:20,140 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:49340, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,49340,139249352544700
+
+2022-09-24 22:21:20,140 INFO send udp packet: 172.20.139.17,49340,139249352544700
+
+2022-09-24 22:21:20,140 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029280140,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=139249352544700} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:21:20,140 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139249352544700
+
+2022-09-24 22:21:20,140 INFO send udp packet: 192.168.170.1,65504,139249352544700
+
+2022-09-24 22:21:20,140 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029280140,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=139249352544700} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:22:08,957 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:22:08,957 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139298169379200
+
+2022-09-24 22:22:08,957 INFO send udp packet: 192.168.170.1,65504,139298169379200
+
+2022-09-24 22:22:08,958 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029328957,"checksum":"371059d7850a287644d295ee73370ba3","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=139298169379200} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:22:24,047 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:22:24,047 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139313259279600
+
+2022-09-24 22:22:24,047 INFO send udp packet: 192.168.170.1,65504,139313259279600
+
+2022-09-24 22:22:24,047 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029344047,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=139313259279600} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:22:45,450 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:22:45,450 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:49340, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,49340,139334661998900
+
+2022-09-24 22:22:45,450 INFO send udp packet: 172.20.139.17,49340,139334661998900
+
+2022-09-24 22:22:45,450 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029365450,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=139334661998900} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:22:45,450 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139334661998900
+
+2022-09-24 22:22:45,450 INFO send udp packet: 192.168.170.1,65504,139334661998900
+
+2022-09-24 22:22:45,450 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029365450,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=139334661998900} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:23:07,713 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 22:23:07,713 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:58966, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,58966,139356925527699
+
+2022-09-24 22:23:07,713 INFO send udp packet: 172.20.139.17,58966,139356925527699
+
+2022-09-24 22:23:07,713 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029387713,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=139356925527699} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 22:23:07,713 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,139356925527699
+
+2022-09-24 22:23:07,713 INFO send udp packet: 192.168.170.1,65504,139356925527699
+
+2022-09-24 22:23:07,713 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664029387713,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=139356925527699} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 23:12:23,022 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 23:12:23,022 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:58966, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,58966,142312234427700
+
+2022-09-24 23:12:23,022 INFO send udp packet: 172.20.139.17,58966,142312234427700
+
+2022-09-24 23:12:23,023 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664032343022,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","hosts":[],"metadata":{}}, lastRefTime=142312234427700} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 23:12:23,023 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,142312234427700
+
+2022-09-24 23:12:23,023 INFO send udp packet: 192.168.170.1,65504,142312234427700
+
+2022-09-24 23:12:23,023 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664032343023,"checksum":"a74d1f6ad90f3ebbaf2b92337367926c","useSpecifiedURL":false,"clusters":"","env":"","hosts":[],"metadata":{}}, lastRefTime=142312234427700} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 23:12:45,147 INFO DEFAULT_GROUP@@service-core is changed, add it to push queue.
+
+2022-09-24 23:12:45,147 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 172.20.139.17:58021, agent: Nacos-Java-Client:v1.3.2, key: 172.20.139.17,58021,142334359718800
+
+2022-09-24 23:12:45,147 INFO send udp packet: 172.20.139.17,58021,142334359718800
+
+2022-09-24 23:12:45,147 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664032365147,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"DEFAULT","env":"","metadata":{}}, lastRefTime=142334359718800} to client: 172.20.139.17, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2022-09-24 23:12:45,147 INFO serviceName: DEFAULT_GROUP@@service-core changed, schedule push for: 192.168.170.1:65504, agent: Nacos-Java-Client:v1.3.2, key: 192.168.170.1,65504,142334359718800
+
+2022-09-24 23:12:45,147 INFO send udp packet: 192.168.170.1,65504,142334359718800
+
+2022-09-24 23:12:45,147 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"hosts":[{"ip":"172.20.139.17","port":8110,"valid":true,"healthy":true,"marked":false,"instanceId":"172.20.139.17#8110#DEFAULT#DEFAULT_GROUP@@service-core","metadata":{"preserved.register.source":"SPRING_CLOUD"},"enabled":true,"weight":1.0,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@service-core","ephemeral":true}],"dom":"DEFAULT_GROUP@@service-core","name":"DEFAULT_GROUP@@service-core","cacheMillis":10000,"lastRefTime":1664032365147,"checksum":"54d68451527c4635ef64e7d4813be9c4","useSpecifiedURL":false,"clusters":"","env":"","metadata":{}}, lastRefTime=142334359718800} to client: 192.168.170.1, error: {}
+
+java.lang.NullPointerException: null
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:612)
+	at com.alibaba.nacos.naming.push.PushService.lambda$onApplicationEvent$1(PushService.java:170)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

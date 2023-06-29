@@ -1,0 +1,4 @@
+2022-09-27 21:33:50,256 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@service-core
+
+2022-09-27 21:42:38,257 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-core
+

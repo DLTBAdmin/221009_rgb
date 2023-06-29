@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hfb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hfb/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/guigu-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/rabbit-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/service-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/service-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/service-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/service-oss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/service-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srb/src/main/resources" charset="UTF-8" />
+    <file url="file://F:/maven-repository/org/springframework/boot/spring-boot-starter-parent/2.3.4.RELEASE/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
